@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const apiTasks = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://json-db-for-todolist.vercel.app",
+    baseUrl: "https://json-db-for-modern-todo-list.vercel.app",
   }),
   tagTypes: ["Tasks"],
   endpoints: (builder) => ({
