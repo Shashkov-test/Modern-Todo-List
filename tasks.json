@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "e1b28681-4eca-41d3-a86a-b5d5f7352072",
+      "name": "Щось зробити",
+      "completed": false
+    },
+    {
+      "id": "e749e303-12aa-425e-b236-740212279bf5",
+      "name": "Щось зробити",
+      "completed": false
+    },
+    {
+      "id": "7749c2d1-f258-4e1e-91cd-f8a5b673a160",
+      "name": "Щось зробити",
+      "completed": false
+    }
+  ]
+}

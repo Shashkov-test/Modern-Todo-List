@@ -1,0 +1,50 @@
+.header {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+
+    &_arrow {
+        font-size: 50px;
+        text-align: center;
+        animation: arrowDownAndUp 1s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes arrowDownAndUp {
+    0% {
+        transform: translateY(-10%);
+    }
+
+    15% {
+        transform: translateY(-5%);
+    }
+
+    25% {
+        transform: translateY(0%);
+    }
+
+    38% {
+        transform: translateY(5%);
+    }
+
+    50% {
+        transform: translateY(10%);
+    }
+
+    65% {
+        transform: translateY(5%);
+    }
+
+    75% {
+        transform: translateY(0%);
+    }
+
+    88% {
+        transform: translateY(-5%);
+    }
+
+    100% {
+        transform: translateY(-10%);
+    }
+}
